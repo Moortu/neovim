@@ -74,24 +74,24 @@ M.languages = {
 		linter = "ktlint", -- ktlint does both formatting and linting
 	},
 
-	zig = {
-		lsp = "zls",
-		-- zls has built-in formatting and diagnostics
-		-- lsp_config = function(lspconfig, capabilities, on_attach)
-		-- 	lspconfig.zls.setup({
-		-- 		capabilities = capabilities,
-		-- 		on_attach = on_attach,
-		-- 		root_dir = lspconfig.util.root_pattern(".git", "build.zig", "zls.json"),
-		-- 		settings = {
-		-- 			zls = {
-		-- 				enable_inlay_hints = true,
-		-- 				enable_snippets = true,
-		-- 				warn_style = true,
-		-- 			},
-		-- 		},
-		-- 	})
-		-- end,
-	},
+	--	zig = {
+	--	lsp = "zls",
+	-- zls has built-in formatting and diagnostics
+	-- lsp_config = function(lspconfig, capabilities, on_attach)
+	-- 	lspconfig.zls.setup({
+	-- 		capabilities = capabilities,
+	-- 		on_attach = on_attach,
+	-- 		root_dir = lspconfig.util.root_pattern(".git", "build.zig", "zls.json"),
+	-- 		settings = {
+	-- 			zls = {
+	-- 				enable_inlay_hints = true,
+	-- 				enable_snippets = true,
+	-- 				warn_style = true,
+	-- 			},
+	-- 		},
+	-- 	})
+	-- end,
+	-- j},
 
 	javascript = {
 		lsp = "ts_ls",

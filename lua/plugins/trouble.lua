@@ -22,7 +22,8 @@ return {
             { "gD", "<cmd>Trouble lsp_declarations toggle<cr>", desc = "Trouble: LSP Declarations" },
             { "gi", "<cmd>Trouble lsp_implementations toggle<cr>", desc = "Trouble: LSP Implementations" },
             { "gt", "<cmd>Trouble lsp_type_definitions toggle<cr>", desc = "Trouble: LSP Type Definitions" },
-            
+
+           
             -- Symbols
             { "<leader>cs", "<cmd>Trouble lsp_document_symbols toggle<cr>", desc = "Trouble: Document Symbols" },
             { "<leader>cS", "<cmd>Trouble lsp_workspace_symbols toggle<cr>", desc = "Trouble: Workspace Symbols" },
